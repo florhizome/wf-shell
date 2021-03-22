@@ -91,6 +91,7 @@ class WfToplevelIcon::impl
     void set_app_id(std::string app_id)
     {
         this->app_id = app_id;
+
         IconProvider::set_image_from_icon(image,
                                           app_id,
                                           icon_height,
